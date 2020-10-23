@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(string)
-    string.each do |word| 
+    string.each do |word|
       word.scan /\w/
   end
 
