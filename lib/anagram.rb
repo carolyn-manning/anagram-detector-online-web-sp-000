@@ -10,7 +10,7 @@ class Anagram
     string.select do |word|
       if word.chars.sort == @word.chars.sort
         @word
-      end 
+      end
     end
   end
 
