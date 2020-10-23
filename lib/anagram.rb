@@ -9,6 +9,7 @@ class Anagram
   def match(string)
     string.each do |word|
       word.scan /\w/
+    end 
   end
 
 
