@@ -8,7 +8,7 @@ class Anagram
 
   def match(string)
     string
-  end 
+  end
 
 
 end
